@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'LivenessUtility/LivenessUtility.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "OpenSSL-Universal", '~> 1.1.1100'
-  spec.dependency "SwiftOTP", '~> 3.0.2'
+  spec.dependency "SwiftOTP", '~> 3.0.0'
   spec.dependency "SignManager", '~> 1.0.4'
 
   spec.swift_version = "5.0"
