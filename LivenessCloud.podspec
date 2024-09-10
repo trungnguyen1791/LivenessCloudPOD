@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessCloud"
-  spec.version      = "1.5.8"
+  spec.version      = "1.5.9"
   spec.summary      = "A short description of LivenessCloud."
   spec.homepage     = "https://github.com/trungnguyen1791/LivenessCloudPOD"
   spec.author           = { 'My Name' => 'myemail@example.com' }
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessCloudPOD/releases/download/1.5.8/LivenessCloud.zip' }
+  spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessCloudPOD/releases/download/1.5.9/LivenessCloud.zip' }
   spec.vendored_frameworks = 'LivenessCloud/LivenessCloud.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '~> 19.0'
