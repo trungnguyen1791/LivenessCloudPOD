@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   
   spec.platform = :ios
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "12.0"
 
   spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessCloudPOD/releases/download/1.6.1/LivenessCloud.zip' }
   spec.vendored_frameworks = 'LivenessCloud/LivenessCloud.xcframework'
