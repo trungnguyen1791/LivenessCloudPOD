@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessCloud"
-  spec.version      = "1.6.1"
+  spec.version      = "1.5.6"
   spec.summary      = "A short description of LivenessCloud."
   spec.homepage     = "https://github.com/trungnguyen1791/LivenessCloudPOD"
   spec.author           = { 'My Name' => 'myemail@example.com' }
